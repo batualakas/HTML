@@ -1,0 +1,7 @@
+HTML programlama dili deðildir, iþaretleme dilidir.
+Tarayýcýlar html response'larý okuyarak ekrana çýktý verirler.
+tag'ler ile yazýlýrlar.
+<TagName> content </tagname>
+html tag'leri arasýnda yazýlýrlar. derlenmez yorumlanýrlar. c# gibi deðil.
+Notepad, visual studio code, vb uygulamalar ile yazýlabilir.
+dosyalarýn uzantýsý .html'dir.
