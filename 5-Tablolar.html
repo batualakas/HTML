@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Tablolar</h1>
+    <p>
+        table etiketi ile tablo yapısı kurabiliriz. Tablo içinde satırlar tr, hücreler için td,başlık için th kullanıyoruz.
+
+    </p>
+    <table>
+        <hr />
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>R</td>
+            <td>A</td>
+            <td>Y</td>
+        </tr>
+
+    </table>
+    <hr />
+    <!--thead, tbody, tfooter-->
+    <table>
+        <thead>
+            <tr>
+                <th style="border:solid 1px #000000" rowspan="4">
+                    HARFLER
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border:solid #000000" rowspan="2"> </td>
+                <td style="border:solid #000000 ">A</td>
+                <td style="border:solid #000000 ">B</td>
+                <td style="border:solid #000000">C</td>
+
+            </tr>
+            <tr>
+                <td style="border:solid #000000 ">D</td>
+                <td style="border:solid #000000 ">E</td>
+                <td style="border:solid #000000 ">F</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+           
+            <tr>
+                <td colspan="4">Created By X</td>
+            </tr>
+           
+        </tfoot>
+
+    </table>
+</body>
+</html>

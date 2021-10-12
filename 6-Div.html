@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* CSS kodları bu blok içine yazılır. */
+        /*Class seçicisi olarak .classAdi şeklinde kullanım yapılır.*/
+        /*id yi seçmek için # kullanıyoruz class için '.'*/
+        .kare1 {
+            width: 150px;
+            height: 150px;
+            background-color: #e58611;
+            /*padding: 5px;
+            margin: 5px;*/
+            margin: 10px 2px 15px 2px; /*top right bottom left */
+            float:left;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        div etiketi (division kısaltması) html etiketlerini çevreleyen, css'ler ile birlikte kullanılarak görsel tasarımlar oluşturulmasına yardımcı olan etikettir.
+        Arayüzde görsel bir çıktı vermez.
+
+    </p>
+
+    <div>
+        <h1>Selam</h1>
+        <div>
+            <p>Dünya Naber</p>
+            <span></span>
+        </div>
+    </div>
+    <p id="p1">
+        <b id="b1">id attribute</b> : tüm elementlere id özelliği eklenebilir. Bir id değeri sayfa içinde sadece bir kez tanımlanabilir. (tekil unique olması gerekir.) <br />
+        <b class="box1" id="b2"> Class attribute:</b> tüm elementlere class özelliği eklenebilir. Ancak id gibi tekil olma zorunlulupu yoktur birden fazla elemente aynı class adı tanımlanabilir.
+    </p>
+    <b>
+        <i>
+            <p style="color:darkred; background-color:aqua">
+                Style etiketi içinde Css kodları yazarak tasarımda görsel düzenlemeler yapabiliriz. Style tag head tag'i içinde tanımlanır.
+                Css kodlarını elementin içine de yazılabilir.
+            </p>
+    </b>
+    </i>
+    <hr />
+    <div class="kare1">
+        <span><center><b>1.kare</b></center></span>
+    </div>
+    <div class="kare1"><span><center><b>2.kare</b></center></span></div>
+</body>
+</html>
